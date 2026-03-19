@@ -6,7 +6,7 @@ class Solution:
             if c.isalnum():
                 fresh_s += c.lower() #concatenate
 
-        #palidrome
+        #palindrome
         if fresh_s == fresh_s[::-1]:
             return True
         

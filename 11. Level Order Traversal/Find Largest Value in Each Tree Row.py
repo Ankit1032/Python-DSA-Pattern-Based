@@ -33,7 +33,7 @@ class Solution:
 
         ### NEETCODE - USING LEVEL ORDER TRAVERSAL
         if not root:
-            return root
+            return []
         res = []
 
         q = deque([root])

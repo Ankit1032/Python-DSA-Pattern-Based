@@ -12,7 +12,8 @@ class Solution:
             #If out of bounds → not closed
             if row < 0 or col < 0 or row >= r_range or col >= c_range:
                 return False
-            
+
+            #As soon as it touches water (1 -> water) so that means we are surrounded by water in that direction so return True 
             if grid[row][col] == 1 or (row, col) in visited:
                 return True
 
